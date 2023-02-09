@@ -1,0 +1,24 @@
+.color {
+  border: 1px solid black;
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.pixel {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+}
+
+#pixel-board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 210px;
+}
+
+#btns {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
